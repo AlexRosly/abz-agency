@@ -1,0 +1,80 @@
+@import '../../assets/variebles.scss';
+
+.hero__section{
+    max-width: 1170px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 16px 71px 16px;
+    text-align: center;
+    
+    font-family: $font-family;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: 
+    url('../../assets/images/mobile-fonhero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (min-width: 481px) {
+        padding-top: 89px;
+        padding-bottom: 88px;
+        background-image: url('../../assets/images/tablet-fonhero.jpg');
+
+    }
+
+    @media screen and (min-width: 768px) {
+        background-image: url('../../assets/images/desctop-fonhero.jpg');
+
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding-top: 164px;
+        padding-bottom: 163px;
+        height: 650px;
+    }
+}
+
+
+.hero__title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 328px;
+    color: $color-white;
+    font-weight: $normal-text-weight;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    @media screen and (min-width: 481px) {
+        width: 380px;
+    }
+}
+
+.hero__text{
+    margin-top: 21px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 328px;
+    color: $color-white;
+    font-weight: $normal-text-weight;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+.hero__btn{
+    padding: 4px 22px 4px 23px;
+    min-width: 100px;
+    min-height: 34px;
+    background-color: $primiry-color;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}

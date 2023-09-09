@@ -1,0 +1,22 @@
+.ellipse {
+  background-color: #f8f8f8;
+}
+
+.PositionList__list {
+  position: relative;
+}
+
+.PositionList__item::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #120d0d;
+  opacity: 0;
+}
+.PositionList__item::before {
+  opacity: 1;
+} /*# sourceMappingURL=PositionList.css.map */

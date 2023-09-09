@@ -1,0 +1,146 @@
+.postRequest__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px;
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.postRequest__title {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 50px;
+  width: 328px;
+}
+@media screen and (min-width: 768px) {
+  .postRequest__title {
+    width: 100vw;
+  }
+}
+
+.postRequest__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.postRequest__input {
+  padding: 14px 16px;
+  height: 54px;
+  width: 328px;
+  background-color: #f8f8f8;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  outline: none;
+}
+.postRequest__input--modificator {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .postRequest__input {
+    width: 380px;
+  }
+}
+
+.postRequest__input::-moz-placeholder {
+  color: #7e7e7e;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.postRequest__input::placeholder {
+  color: #7e7e7e;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.postRequest__example {
+  margin-left: 16px;
+  margin-top: 4px;
+  color: #7e7e7e;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.postRequest__radioBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-bottom: 47px;
+  width: 328px;
+}
+
+.postRequest__paragraf {
+  margin-bottom: 11px;
+  line-height: 26px;
+}
+
+.postRequest__radioLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postRequest__radioLabel:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.postRequest__radioInput {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+input[type="radio"],
+label {
+  cursor: pointer;
+}
+
+.postRequest__file {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postRequest__label {
+  display: flex;
+  height: 54px;
+  width: 83px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.postRequest__upload {
+  display: none;
+}
+
+.postRequest__upload--text {
+  display: inline-flex;
+  padding-left: 16px;
+  width: 297px;
+  height: 54px;
+  border: 1px solid #d0cfcf;
+  border-radius: 0 5px 5px 0;
+  color: #7e7e7e;
+  align-items: center;
+}
+
+.postRequest__btn {
+  margin: 55px auto 0 auto;
+  padding: 4px 22px 4px 23px;
+  width: 100px;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 80px;
+  border: none;
+  background-color: #b4b4b4;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+} /*# sourceMappingURL=PostRequest.css.map */

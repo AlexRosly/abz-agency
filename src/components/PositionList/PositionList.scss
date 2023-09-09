@@ -1,0 +1,28 @@
+@import "../../assets/variebles.scss";
+
+.ellipse {
+  background-color: $background_color;
+}
+
+.PositionList__list {
+  position: relative;
+}
+
+.PositionList__item {
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #120d0d;
+    // background-color: var(--link-hover-color);
+    opacity: 0;
+  }
+
+  &::before {
+    opacity: 1;
+  }
+}

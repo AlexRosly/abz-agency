@@ -1,0 +1,40 @@
+@import '../../assets/variebles.scss';
+
+.header__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text{
+    text-transform: uppercase;
+}
+
+.nav__block{
+    margin: 13px 0px;
+}
+
+.nav__link{
+    padding: 4px 29px;
+    border-radius: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: $primiry-color;
+    color: $primiry-text-color;
+    cursor: pointer;
+
+    &:last-child{
+        margin-left: 10px;
+            padding: 4px 22px 4px 23px;
+    }
+
+    &:hover{
+        background-color: $hover-color;
+    }
+}
